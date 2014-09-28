@@ -1,14 +1,25 @@
 <?php
 namespace Composer\Installers;
 
-class PimcoreInstaller extends BaseInstaller
+/**
+ * Class DemoInstaller
+ *
+ * @package Composer\Installers
+ */
+class AppInstaller extends BaseInstaller
 {
+    /**
+     * @var array
+     */
     protected $locations = array(
         'plugin' => 'plugins/{$name}/',
     );
 
     /**
      * Format package name to CamelCase
+     * @param array $vars
+     *
+     * @return array
      */
     public function inflectPackageVars($vars)
     {
