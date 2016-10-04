@@ -22,7 +22,7 @@ use Composer\Installer\LibraryInstaller;
 /**
  * Package installation manager.
  *
- * @author Martin Rüegg <martin.rueegg@bristolpound.org>
+ * @author Martin RÃ¼egg <martin.rueegg@bristolpound.org>
  */
 class PearFlatInstaller extends PearInstaller
 {
