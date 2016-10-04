@@ -1,8 +1,8 @@
 {
-    "name": "composer/installers",
+    "name": "bristolpound/pear-flat-installer",
     "type": "composer-installer",
     "license": "MIT",
-    "description": "A multi-framework Composer library installer",
+    "description": "A PEAR library installer plugin for Composer",
     "keywords": [
         "installer",
         "PEAR"

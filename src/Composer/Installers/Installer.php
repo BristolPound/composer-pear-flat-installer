@@ -13,7 +13,8 @@ class Installer extends LibraryInstaller
      * @var array
      */
     private $supportedTypes = array(
-        'app' => 'AppInstaller'
+        'pear' => 'PearFlatInstaller',
+        'pear-library' => 'PearFlatInstaller'
     );
 
     /**
