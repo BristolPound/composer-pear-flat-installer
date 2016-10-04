@@ -15,6 +15,7 @@ namespace Composer\Installer;
 use Composer\IO\IOInterface;
 use Composer\Composer;
 use Composer\Downloader\PearPackageExtractor;
+use Composer\Package\PackageInterface;
 use Composer\Util\Platform;
 use Composer\Installer\PearInstaller;
 use Composer\Installer\LibraryInstaller;
